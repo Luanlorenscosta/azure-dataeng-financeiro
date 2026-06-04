@@ -1,0 +1,11 @@
+﻿pandas==2.2.2
+pyarrow==16.1.0
+faker==25.2.0
+duckdb==1.5.3
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.30
+requests==2.32.3
+python-dotenv==1.0.1
+loguru==0.7.2
+pytest==8.2.2
+great-expectations==0.18.15
