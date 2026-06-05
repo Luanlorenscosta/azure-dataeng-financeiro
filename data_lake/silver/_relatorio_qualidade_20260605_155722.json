@@ -1,0 +1,40 @@
+[
+  {
+    "tabela": "clientes",
+    "total_original": 500,
+    "total_silver": 500,
+    "removidos": 0,
+    "problemas": []
+  },
+  {
+    "tabela": "contas",
+    "total_original": 1017,
+    "total_silver": 1017,
+    "removidos": 0,
+    "problemas": []
+  },
+  {
+    "tabela": "transacoes",
+    "total_original": 50000,
+    "total_silver": 50000,
+    "removidos": 0,
+    "problemas": [],
+    "fraudes": 978,
+    "valor_total": 81344278.1,
+    "valor_medio": 1626.885562
+  },
+  {
+    "tabela": "comerciantes",
+    "total_original": 100,
+    "total_silver": 100,
+    "removidos": 0,
+    "problemas": []
+  },
+  {
+    "tabela": "categorias_transacao",
+    "total_original": 14,
+    "total_silver": 14,
+    "removidos": 0,
+    "problemas": []
+  }
+]
