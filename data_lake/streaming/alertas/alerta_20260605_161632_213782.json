@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:32.213773",
+  "evento_id": "ecbd07fe-875c-4822-8e27-2adec2b39d2a",
+  "id_conta": 853,
+  "valor": 2469.37,
+  "tipo": "credito",
+  "estado": "CE",
+  "score_fraude": 0.0783,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "ecbd07fe-875c-4822-8e27-2adec2b39d2a",
+    "timestamp": "2026-06-05T16:16:32.209872",
+    "id_conta": 853,
+    "valor": 2469.37,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "CE",
+    "is_fraude": false,
+    "score_fraude": 0.0783,
+    "ip_origem": "55.77.11.167",
+    "device_id": "bc7a5b3d-8a09-4006-b34a-ea791e3e0691",
+    "comerciante": "Camargo",
+    "descricao": "Dolorem."
+  }
+}

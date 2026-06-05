@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:50.816967",
+  "evento_id": "9a2eaf93-2a8e-4b73-96b7-3f937ec19509",
+  "id_conta": 182,
+  "valor": 2568.79,
+  "tipo": "debito",
+  "estado": "MG",
+  "score_fraude": 0.117,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "9a2eaf93-2a8e-4b73-96b7-3f937ec19509",
+    "timestamp": "2026-06-05T16:16:50.811343",
+    "id_conta": 182,
+    "valor": 2568.79,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "MG",
+    "is_fraude": false,
+    "score_fraude": 0.117,
+    "ip_origem": "15.209.71.89",
+    "device_id": "5492d367-38ce-4906-a0a6-2489796fdc54",
+    "comerciante": "Mendonça - ME",
+    "descricao": "Dolorum illo molestiae."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:41.109121",
+  "evento_id": "ff088d98-39b0-4fd3-aae5-98d32e49d7dd",
+  "id_conta": 250,
+  "valor": 1965.11,
+  "tipo": "boleto",
+  "estado": "CE",
+  "score_fraude": 0.1761,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "ff088d98-39b0-4fd3-aae5-98d32e49d7dd",
+    "timestamp": "2026-06-05T16:15:40.372510",
+    "id_conta": 250,
+    "valor": 1965.11,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "CE",
+    "is_fraude": false,
+    "score_fraude": 0.1761,
+    "ip_origem": "86.138.92.139",
+    "device_id": "4a9593b8-db27-4495-9c68-9ea4a9bec389",
+    "comerciante": "Guerra",
+    "descricao": "Laborum nisi quia."
+  }
+}

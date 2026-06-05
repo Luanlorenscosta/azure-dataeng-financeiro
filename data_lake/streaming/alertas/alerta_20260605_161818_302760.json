@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:18.302751",
+  "evento_id": "a7a07b96-81ac-4852-84aa-b5f800eee85c",
+  "id_conta": 321,
+  "valor": 550.19,
+  "tipo": "debito",
+  "estado": "PE",
+  "score_fraude": 0.2057,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "a7a07b96-81ac-4852-84aa-b5f800eee85c",
+    "timestamp": "2026-06-05T16:18:18.298510",
+    "id_conta": 321,
+    "valor": 550.19,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "PE",
+    "is_fraude": false,
+    "score_fraude": 0.2057,
+    "ip_origem": "112.155.201.212",
+    "device_id": "480e96b5-c8c3-4216-b3e1-c7d3194a85bd",
+    "comerciante": "Pinto",
+    "descricao": "Neque perferendis iure."
+  }
+}

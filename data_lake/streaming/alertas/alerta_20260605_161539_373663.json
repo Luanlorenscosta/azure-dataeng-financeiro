@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:39.373650",
+  "evento_id": "a526bf47-ec9d-4785-8fe6-d9e7ef47ae56",
+  "id_conta": 854,
+  "valor": 900.78,
+  "tipo": "pix",
+  "estado": "PE",
+  "score_fraude": 0.1572,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "a526bf47-ec9d-4785-8fe6-d9e7ef47ae56",
+    "timestamp": "2026-06-05T16:15:39.368950",
+    "id_conta": 854,
+    "valor": 900.78,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PE",
+    "is_fraude": false,
+    "score_fraude": 0.1572,
+    "ip_origem": "79.226.197.29",
+    "device_id": "c00c52eb-0aa1-48ec-a7e2-3eb802b9a70d",
+    "comerciante": "Caldeira",
+    "descricao": "Dicta nisi facere."
+  }
+}

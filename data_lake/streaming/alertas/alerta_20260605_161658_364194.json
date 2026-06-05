@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:58.364184",
+  "evento_id": "b0dfa0aa-2fc7-4cbd-a818-86e0f8291c79",
+  "id_conta": 180,
+  "valor": 2237.32,
+  "tipo": "boleto",
+  "estado": "PR",
+  "score_fraude": 0.207,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "b0dfa0aa-2fc7-4cbd-a818-86e0f8291c79",
+    "timestamp": "2026-06-05T16:16:58.360021",
+    "id_conta": 180,
+    "valor": 2237.32,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "PR",
+    "is_fraude": false,
+    "score_fraude": 0.207,
+    "ip_origem": "204.93.184.189",
+    "device_id": "667c9fff-764e-4698-8403-4f9a24657dca",
+    "comerciante": "Cunha e Filhos",
+    "descricao": "Voluptatum rem."
+  }
+}

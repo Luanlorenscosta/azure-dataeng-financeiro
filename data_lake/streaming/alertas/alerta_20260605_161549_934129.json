@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:49.934106",
+  "evento_id": "2db3de3e-506d-4748-a530-d66be5755bb4",
+  "id_conta": 397,
+  "valor": 642.59,
+  "tipo": "boleto",
+  "estado": "PR",
+  "score_fraude": 0.259,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "2db3de3e-506d-4748-a530-d66be5755bb4",
+    "timestamp": "2026-06-05T16:15:49.923694",
+    "id_conta": 397,
+    "valor": 642.59,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PR",
+    "is_fraude": false,
+    "score_fraude": 0.259,
+    "ip_origem": "59.123.103.33",
+    "device_id": "65d03a2c-dd6f-47da-ac1c-559384c8a458",
+    "comerciante": "Marques S/A",
+    "descricao": "Molestias quaerat excepturi."
+  }
+}

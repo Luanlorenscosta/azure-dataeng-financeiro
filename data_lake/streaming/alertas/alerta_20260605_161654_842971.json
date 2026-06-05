@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:54.842957",
+  "evento_id": "f24cc60c-cdc4-455e-9eb2-64949d4b2024",
+  "id_conta": 431,
+  "valor": 2940.85,
+  "tipo": "pix",
+  "estado": "SC",
+  "score_fraude": 0.1023,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "f24cc60c-cdc4-455e-9eb2-64949d4b2024",
+    "timestamp": "2026-06-05T16:16:54.835162",
+    "id_conta": 431,
+    "valor": 2940.85,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "SC",
+    "is_fraude": false,
+    "score_fraude": 0.1023,
+    "ip_origem": "116.25.76.181",
+    "device_id": "cab19d0c-b057-43af-9c48-26f6afc0f516",
+    "comerciante": "Gonçalves Rocha - ME",
+    "descricao": "Explicabo nobis dolores veritatis."
+  }
+}

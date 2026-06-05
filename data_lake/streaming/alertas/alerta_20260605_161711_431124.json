@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:11.431115",
+  "evento_id": "5fb2b5cb-9f25-41ec-a70d-3ff1afb85072",
+  "id_conta": 568,
+  "valor": 924.26,
+  "tipo": "ted",
+  "estado": "PE",
+  "score_fraude": 0.235,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "5fb2b5cb-9f25-41ec-a70d-3ff1afb85072",
+    "timestamp": "2026-06-05T16:17:11.422009",
+    "id_conta": 568,
+    "valor": 924.26,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PE",
+    "is_fraude": false,
+    "score_fraude": 0.235,
+    "ip_origem": "175.112.209.206",
+    "device_id": "9a2e65f6-ea15-4c0e-8c39-a571fe14de62",
+    "comerciante": "Nascimento da Mata Ltda.",
+    "descricao": "Exercitationem id."
+  }
+}

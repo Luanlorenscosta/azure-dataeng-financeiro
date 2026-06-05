@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:05.044601",
+  "evento_id": "db1a2a57-55be-4c82-9fc2-3338683e31e1",
+  "id_conta": 251,
+  "valor": 1370.27,
+  "tipo": "ted",
+  "estado": "PR",
+  "score_fraude": 0.163,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "db1a2a57-55be-4c82-9fc2-3338683e31e1",
+    "timestamp": "2026-06-05T16:16:05.030267",
+    "id_conta": 251,
+    "valor": 1370.27,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PR",
+    "is_fraude": false,
+    "score_fraude": 0.163,
+    "ip_origem": "158.22.234.178",
+    "device_id": "8a19b39d-3dc7-42d2-8e5c-cace3bfa48a0",
+    "comerciante": "Santos da Costa - EI",
+    "descricao": "Laudantium."
+  }
+}

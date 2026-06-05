@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:42.614300",
+  "evento_id": "04dc8be8-5eea-44d6-b810-1bf7f13cdc32",
+  "id_conta": 175,
+  "valor": 2388.27,
+  "tipo": "credito",
+  "estado": "RS",
+  "score_fraude": 0.0199,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "04dc8be8-5eea-44d6-b810-1bf7f13cdc32",
+    "timestamp": "2026-06-05T16:17:42.605719",
+    "id_conta": 175,
+    "valor": 2388.27,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "RS",
+    "is_fraude": false,
+    "score_fraude": 0.0199,
+    "ip_origem": "170.14.149.11",
+    "device_id": "345aadc4-c12d-48c0-94ee-b266654358e9",
+    "comerciante": "Pacheco e Filhos",
+    "descricao": "Earum odio et."
+  }
+}

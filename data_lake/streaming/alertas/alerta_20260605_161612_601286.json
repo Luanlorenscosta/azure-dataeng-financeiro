@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:12.601266",
+  "evento_id": "5b8030fe-42d3-4d62-90dc-f20dd47bf4b1",
+  "id_conta": 114,
+  "valor": 1928.49,
+  "tipo": "pix",
+  "estado": "BA",
+  "score_fraude": 0.1846,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "5b8030fe-42d3-4d62-90dc-f20dd47bf4b1",
+    "timestamp": "2026-06-05T16:16:12.587339",
+    "id_conta": 114,
+    "valor": 1928.49,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.1846,
+    "ip_origem": "2.103.130.36",
+    "device_id": "9a49edef-7d0c-4984-a326-45d2c3400779",
+    "comerciante": "Vieira Castro - EI",
+    "descricao": "Necessitatibus."
+  }
+}

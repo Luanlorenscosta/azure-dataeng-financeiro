@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:19.142210",
+  "evento_id": "e3a74c1d-d0af-4c0b-bd72-10ef30bd7799",
+  "id_conta": 446,
+  "valor": 353.19,
+  "tipo": "credito",
+  "estado": "BA",
+  "score_fraude": 0.1777,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "e3a74c1d-d0af-4c0b-bd72-10ef30bd7799",
+    "timestamp": "2026-06-05T16:16:19.134109",
+    "id_conta": 446,
+    "valor": 353.19,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.1777,
+    "ip_origem": "90.18.178.39",
+    "device_id": "3423389a-a68a-4feb-bbb1-12f998c0ec63",
+    "comerciante": "Fonseca S.A.",
+    "descricao": "Impedit."
+  }
+}

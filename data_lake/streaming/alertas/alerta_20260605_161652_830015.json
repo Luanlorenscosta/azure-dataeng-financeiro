@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:52.830007",
+  "evento_id": "8f24b921-3082-4721-be9f-d71de780aa3c",
+  "id_conta": 558,
+  "valor": 208.52,
+  "tipo": "pix",
+  "estado": "GO",
+  "score_fraude": 0.2398,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "8f24b921-3082-4721-be9f-d71de780aa3c",
+    "timestamp": "2026-06-05T16:16:52.823984",
+    "id_conta": 558,
+    "valor": 208.52,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "GO",
+    "is_fraude": false,
+    "score_fraude": 0.2398,
+    "ip_origem": "149.202.66.24",
+    "device_id": "a1773a70-fea4-46e7-bc5c-354309b91639",
+    "comerciante": "Lopes",
+    "descricao": "Ex nemo officiis."
+  }
+}

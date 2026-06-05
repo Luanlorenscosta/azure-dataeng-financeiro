@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:10.761044",
+  "evento_id": "e5050f76-ffa9-4bd6-8cc7-dccadb2068f0",
+  "id_conta": 817,
+  "valor": 940.11,
+  "tipo": "ted",
+  "estado": "SC",
+  "score_fraude": 0.2954,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "e5050f76-ffa9-4bd6-8cc7-dccadb2068f0",
+    "timestamp": "2026-06-05T16:18:10.754516",
+    "id_conta": 817,
+    "valor": 940.11,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "SC",
+    "is_fraude": false,
+    "score_fraude": 0.2954,
+    "ip_origem": "1.245.250.32",
+    "device_id": "d703a720-aab2-4885-878e-1d5e3a317046",
+    "comerciante": "Fernandes",
+    "descricao": "Quod eum veniam."
+  }
+}

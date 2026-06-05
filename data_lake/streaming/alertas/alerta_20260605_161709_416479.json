@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:09.416469",
+  "evento_id": "2fc4a238-ecb4-4657-a6b1-ae3fab4982e2",
+  "id_conta": 1012,
+  "valor": 2407.31,
+  "tipo": "pix",
+  "estado": "BA",
+  "score_fraude": 0.1093,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "2fc4a238-ecb4-4657-a6b1-ae3fab4982e2",
+    "timestamp": "2026-06-05T16:17:09.409952",
+    "id_conta": 1012,
+    "valor": 2407.31,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.1093,
+    "ip_origem": "179.91.85.111",
+    "device_id": "85fce6e1-f82e-449b-ba45-1714bf4a6bcd",
+    "comerciante": "Sales",
+    "descricao": "Aliquam possimus."
+  }
+}

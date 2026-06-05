@@ -1,0 +1,37 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:01.514674",
+  "evento_id": "2763fd14-3150-4569-8592-d1ff93be58c6",
+  "id_conta": 477,
+  "valor": 1394.68,
+  "tipo": "pix",
+  "estado": "MG",
+  "score_fraude": 0.7138,
+  "alertas": [
+    {
+      "regra": "SCORE_FRAUDE_ALTO",
+      "descricao": "Score 0.7138 acima do limite 0.65",
+      "severidade": "ALTA"
+    },
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "2763fd14-3150-4569-8592-d1ff93be58c6",
+    "timestamp": "2026-06-05T16:16:01.503075",
+    "id_conta": 477,
+    "valor": 1394.68,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "MG",
+    "is_fraude": true,
+    "score_fraude": 0.7138,
+    "ip_origem": "60.220.194.62",
+    "device_id": "c38a68ab-94a0-4e0f-97aa-c637867fa324",
+    "comerciante": "Guerra Ltda.",
+    "descricao": "Voluptates itaque."
+  }
+}

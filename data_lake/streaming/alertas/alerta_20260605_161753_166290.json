@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:53.166281",
+  "evento_id": "0e99807f-ed10-410c-924a-f31926068f3c",
+  "id_conta": 631,
+  "valor": 1515.87,
+  "tipo": "ted",
+  "estado": "PE",
+  "score_fraude": 0.0549,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "0e99807f-ed10-410c-924a-f31926068f3c",
+    "timestamp": "2026-06-05T16:17:53.161684",
+    "id_conta": 631,
+    "valor": 1515.87,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "PE",
+    "is_fraude": false,
+    "score_fraude": 0.0549,
+    "ip_origem": "78.45.231.53",
+    "device_id": "7708bb2b-9c53-4422-a29b-ece9d6114679",
+    "comerciante": "Porto",
+    "descricao": "Earum perspiciatis quibusdam."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:06.395443",
+  "evento_id": "a48d0889-3252-4973-bc02-7edcf0963bb5",
+  "id_conta": 179,
+  "valor": 757.56,
+  "tipo": "debito",
+  "estado": "SC",
+  "score_fraude": 0.2125,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "a48d0889-3252-4973-bc02-7edcf0963bb5",
+    "timestamp": "2026-06-05T16:17:06.391098",
+    "id_conta": 179,
+    "valor": 757.56,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "SC",
+    "is_fraude": false,
+    "score_fraude": 0.2125,
+    "ip_origem": "20.128.24.93",
+    "device_id": "73fa8290-e8ce-4ed4-85d4-89d1348ab0b9",
+    "comerciante": "Macedo",
+    "descricao": "Hic quisquam tempora."
+  }
+}

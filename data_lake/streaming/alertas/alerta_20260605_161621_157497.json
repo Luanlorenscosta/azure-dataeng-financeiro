@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:21.157478",
+  "evento_id": "84f7322d-c3df-4af5-ab39-5ed24063ea8a",
+  "id_conta": 536,
+  "valor": 104.67,
+  "tipo": "credito",
+  "estado": "PE",
+  "score_fraude": 0.0766,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "84f7322d-c3df-4af5-ab39-5ed24063ea8a",
+    "timestamp": "2026-06-05T16:16:21.143547",
+    "id_conta": 536,
+    "valor": 104.67,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PE",
+    "is_fraude": false,
+    "score_fraude": 0.0766,
+    "ip_origem": "66.255.194.145",
+    "device_id": "06ad49c1-e48a-4477-affe-19d495e05d83",
+    "comerciante": "Barros S/A",
+    "descricao": "Ducimus magnam."
+  }
+}

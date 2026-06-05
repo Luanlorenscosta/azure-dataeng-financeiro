@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:07.240859",
+  "evento_id": "06a1578a-c02d-4fbc-bb1f-a12de04dad8a",
+  "id_conta": 508,
+  "valor": 189.17,
+  "tipo": "boleto",
+  "estado": "PE",
+  "score_fraude": 0.0944,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "06a1578a-c02d-4fbc-bb1f-a12de04dad8a",
+    "timestamp": "2026-06-05T16:18:07.228854",
+    "id_conta": 508,
+    "valor": 189.17,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PE",
+    "is_fraude": false,
+    "score_fraude": 0.0944,
+    "ip_origem": "198.173.8.145",
+    "device_id": "38b59fea-cc4f-4a9e-84d7-9085f4b4b516",
+    "comerciante": "Camargo Camargo Ltda.",
+    "descricao": "Aliquam consectetur."
+  }
+}

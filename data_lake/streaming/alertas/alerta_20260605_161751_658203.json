@@ -1,0 +1,42 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:51.658194",
+  "evento_id": "26454425-b25d-43d1-a9a4-bd30843b33cb",
+  "id_conta": 106,
+  "valor": 9424.19,
+  "tipo": "ted",
+  "estado": "PE",
+  "score_fraude": 0.7032,
+  "alertas": [
+    {
+      "regra": "SCORE_FRAUDE_ALTO",
+      "descricao": "Score 0.7032 acima do limite 0.65",
+      "severidade": "ALTA"
+    },
+    {
+      "regra": "VALOR_SUSPEITO",
+      "descricao": "Transação de R$ 9,424.19 acima do limite",
+      "severidade": "MEDIA"
+    },
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "26454425-b25d-43d1-a9a4-bd30843b33cb",
+    "timestamp": "2026-06-05T16:17:51.654236",
+    "id_conta": 106,
+    "valor": 9424.19,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PE",
+    "is_fraude": true,
+    "score_fraude": 0.7032,
+    "ip_origem": "45.148.64.23",
+    "device_id": "d8fd9d67-8210-43d3-b366-485cf24476ac",
+    "comerciante": "Rezende e Filhos",
+    "descricao": "Non amet."
+  }
+}

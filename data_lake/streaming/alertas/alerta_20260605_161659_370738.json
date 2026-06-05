@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:59.370729",
+  "evento_id": "11abc061-b243-4435-99ca-39332c52cf7e",
+  "id_conta": 782,
+  "valor": 196.13,
+  "tipo": "boleto",
+  "estado": "CE",
+  "score_fraude": 0.0486,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "11abc061-b243-4435-99ca-39332c52cf7e",
+    "timestamp": "2026-06-05T16:16:59.364907",
+    "id_conta": 782,
+    "valor": 196.13,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "CE",
+    "is_fraude": false,
+    "score_fraude": 0.0486,
+    "ip_origem": "158.47.254.66",
+    "device_id": "1751614c-ed06-4d00-83e2-f46ffdea49bd",
+    "comerciante": "Pereira",
+    "descricao": "Sint fuga laborum."
+  }
+}

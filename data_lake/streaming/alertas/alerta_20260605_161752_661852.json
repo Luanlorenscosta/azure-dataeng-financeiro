@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:52.661844",
+  "evento_id": "5fffe6bf-d946-4831-8d2f-072b8b8d3520",
+  "id_conta": 842,
+  "valor": 2259.7,
+  "tipo": "boleto",
+  "estado": "SP",
+  "score_fraude": 0.2347,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "5fffe6bf-d946-4831-8d2f-072b8b8d3520",
+    "timestamp": "2026-06-05T16:17:52.656467",
+    "id_conta": 842,
+    "valor": 2259.7,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "SP",
+    "is_fraude": false,
+    "score_fraude": 0.2347,
+    "ip_origem": "63.102.213.210",
+    "device_id": "d91a5fac-4389-4cc7-8e6f-c3b307bae8ab",
+    "comerciante": "Teixeira",
+    "descricao": "Facilis odit."
+  }
+}

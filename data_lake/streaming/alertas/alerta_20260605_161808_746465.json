@@ -1,0 +1,42 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:08.746457",
+  "evento_id": "35b31fbd-06cc-4dbc-a149-b3308ba218f4",
+  "id_conta": 86,
+  "valor": 11632.04,
+  "tipo": "ted",
+  "estado": "RJ",
+  "score_fraude": 0.7246,
+  "alertas": [
+    {
+      "regra": "SCORE_FRAUDE_ALTO",
+      "descricao": "Score 0.7246 acima do limite 0.65",
+      "severidade": "ALTA"
+    },
+    {
+      "regra": "VALOR_SUSPEITO",
+      "descricao": "Transação de R$ 11,632.04 acima do limite",
+      "severidade": "MEDIA"
+    },
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "35b31fbd-06cc-4dbc-a149-b3308ba218f4",
+    "timestamp": "2026-06-05T16:18:08.742373",
+    "id_conta": 86,
+    "valor": 11632.04,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "RJ",
+    "is_fraude": true,
+    "score_fraude": 0.7246,
+    "ip_origem": "200.45.242.226",
+    "device_id": "3c9612e3-0125-4966-ae0c-eda56f018a39",
+    "comerciante": "Martins S.A.",
+    "descricao": "Ab."
+  }
+}

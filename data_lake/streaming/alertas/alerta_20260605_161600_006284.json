@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:00.006247",
+  "evento_id": "0aee2da2-daf3-4d67-875b-018b5214e524",
+  "id_conta": 198,
+  "valor": 1227.58,
+  "tipo": "pix",
+  "estado": "GO",
+  "score_fraude": 0.2563,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "0aee2da2-daf3-4d67-875b-018b5214e524",
+    "timestamp": "2026-06-05T16:15:59.994833",
+    "id_conta": 198,
+    "valor": 1227.58,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "GO",
+    "is_fraude": false,
+    "score_fraude": 0.2563,
+    "ip_origem": "38.122.13.235",
+    "device_id": "4490834f-25d7-4448-ae44-8c90b87aeb0a",
+    "comerciante": "Casa Grande",
+    "descricao": "Amet eos."
+  }
+}

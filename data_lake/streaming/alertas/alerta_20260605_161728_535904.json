@@ -1,0 +1,42 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:28.535890",
+  "evento_id": "8b5fab09-96f7-45ef-a6b7-080de4eedf2f",
+  "id_conta": 537,
+  "valor": 15505.41,
+  "tipo": "ted",
+  "estado": "BA",
+  "score_fraude": 0.8331,
+  "alertas": [
+    {
+      "regra": "SCORE_FRAUDE_ALTO",
+      "descricao": "Score 0.8331 acima do limite 0.65",
+      "severidade": "ALTA"
+    },
+    {
+      "regra": "VALOR_SUSPEITO",
+      "descricao": "Transação de R$ 15,505.41 acima do limite",
+      "severidade": "MEDIA"
+    },
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "8b5fab09-96f7-45ef-a6b7-080de4eedf2f",
+    "timestamp": "2026-06-05T16:17:28.531524",
+    "id_conta": 537,
+    "valor": 15505.41,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "BA",
+    "is_fraude": true,
+    "score_fraude": 0.8331,
+    "ip_origem": "176.214.71.1",
+    "device_id": "91d7f723-0b05-46bf-8c13-0c44c6d4d7dc",
+    "comerciante": "Campos",
+    "descricao": "Itaque suscipit."
+  }
+}

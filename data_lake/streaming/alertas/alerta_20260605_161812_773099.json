@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:12.773091",
+  "evento_id": "93d5301c-6469-421a-867c-07d30f7b1b55",
+  "id_conta": 329,
+  "valor": 1731.44,
+  "tipo": "credito",
+  "estado": "RJ",
+  "score_fraude": 0.2698,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "93d5301c-6469-421a-867c-07d30f7b1b55",
+    "timestamp": "2026-06-05T16:18:12.765280",
+    "id_conta": 329,
+    "valor": 1731.44,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "RJ",
+    "is_fraude": false,
+    "score_fraude": 0.2698,
+    "ip_origem": "141.36.2.129",
+    "device_id": "e81aa1a9-04ad-4611-ad7d-817d55c6a11e",
+    "comerciante": "Moreira",
+    "descricao": "Eos quas."
+  }
+}

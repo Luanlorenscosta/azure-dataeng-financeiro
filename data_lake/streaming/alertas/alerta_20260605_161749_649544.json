@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:49.649528",
+  "evento_id": "b2befef9-7eb8-4745-904d-82233af00a34",
+  "id_conta": 887,
+  "valor": 332.0,
+  "tipo": "ted",
+  "estado": "PR",
+  "score_fraude": 0.0227,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "b2befef9-7eb8-4745-904d-82233af00a34",
+    "timestamp": "2026-06-05T16:17:49.645555",
+    "id_conta": 887,
+    "valor": 332.0,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PR",
+    "is_fraude": false,
+    "score_fraude": 0.0227,
+    "ip_origem": "40.50.234.212",
+    "device_id": "8acc1d9e-be2b-4567-b0ad-5821e73ee25f",
+    "comerciante": "Pires Ltda.",
+    "descricao": "Totam doloribus suscipit."
+  }
+}

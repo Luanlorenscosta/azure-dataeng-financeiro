@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:23.169573",
+  "evento_id": "fe673cde-3727-4e2f-a1c0-5a56685234ff",
+  "id_conta": 925,
+  "valor": 45.7,
+  "tipo": "boleto",
+  "estado": "MG",
+  "score_fraude": 0.2822,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "fe673cde-3727-4e2f-a1c0-5a56685234ff",
+    "timestamp": "2026-06-05T16:16:23.158346",
+    "id_conta": 925,
+    "valor": 45.7,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "MG",
+    "is_fraude": false,
+    "score_fraude": 0.2822,
+    "ip_origem": "93.113.99.242",
+    "device_id": "d2205bf2-819f-419e-90ce-60795deba452",
+    "comerciante": "Viana Fogaça S/A",
+    "descricao": "Deserunt facere."
+  }
+}

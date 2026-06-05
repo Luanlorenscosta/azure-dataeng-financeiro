@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:43.897355",
+  "evento_id": "b87237f9-7a5a-4c16-8fa8-74008e3ef864",
+  "id_conta": 765,
+  "valor": 247.85,
+  "tipo": "credito",
+  "estado": "SP",
+  "score_fraude": 0.0637,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "b87237f9-7a5a-4c16-8fa8-74008e3ef864",
+    "timestamp": "2026-06-05T16:15:43.890736",
+    "id_conta": 765,
+    "valor": 247.85,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "SP",
+    "is_fraude": false,
+    "score_fraude": 0.0637,
+    "ip_origem": "72.247.172.143",
+    "device_id": "32aa27c5-af78-4dfa-a7f2-e778a118dc6f",
+    "comerciante": "Araújo S.A.",
+    "descricao": "Dolorem nam."
+  }
+}

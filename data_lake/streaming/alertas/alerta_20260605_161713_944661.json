@@ -1,0 +1,42 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:13.944609",
+  "evento_id": "49622dc3-6805-4549-91ad-e4cb936a73a2",
+  "id_conta": 449,
+  "valor": 16197.56,
+  "tipo": "debito",
+  "estado": "SC",
+  "score_fraude": 0.8357,
+  "alertas": [
+    {
+      "regra": "SCORE_FRAUDE_ALTO",
+      "descricao": "Score 0.8357 acima do limite 0.65",
+      "severidade": "ALTA"
+    },
+    {
+      "regra": "VALOR_SUSPEITO",
+      "descricao": "Transação de R$ 16,197.56 acima do limite",
+      "severidade": "MEDIA"
+    },
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "49622dc3-6805-4549-91ad-e4cb936a73a2",
+    "timestamp": "2026-06-05T16:17:13.938156",
+    "id_conta": 449,
+    "valor": 16197.56,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "SC",
+    "is_fraude": true,
+    "score_fraude": 0.8357,
+    "ip_origem": "216.212.153.112",
+    "device_id": "e2e1c707-3686-4eca-91cd-8d121f191602",
+    "comerciante": "Moraes",
+    "descricao": "Ab magnam."
+  }
+}

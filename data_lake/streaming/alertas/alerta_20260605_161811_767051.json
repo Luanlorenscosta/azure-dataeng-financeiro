@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:11.767039",
+  "evento_id": "59aa7986-6903-4c11-8490-3d48e0e65ce0",
+  "id_conta": 998,
+  "valor": 1711.52,
+  "tipo": "ted",
+  "estado": "MG",
+  "score_fraude": 0.1577,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "59aa7986-6903-4c11-8490-3d48e0e65ce0",
+    "timestamp": "2026-06-05T16:18:11.761330",
+    "id_conta": 998,
+    "valor": 1711.52,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "MG",
+    "is_fraude": false,
+    "score_fraude": 0.1577,
+    "ip_origem": "143.158.199.10",
+    "device_id": "9b156707-4c78-4420-9983-41777deba4ea",
+    "comerciante": "Cirino - ME",
+    "descricao": "Tempora accusamus mollitia beatae."
+  }
+}

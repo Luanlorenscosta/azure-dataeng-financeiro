@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:37.245170",
+  "evento_id": "fd17e3d1-a91a-40ae-8c87-eb800a005e4a",
+  "id_conta": 74,
+  "valor": 1337.85,
+  "tipo": "credito",
+  "estado": "MG",
+  "score_fraude": 0.2355,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "fd17e3d1-a91a-40ae-8c87-eb800a005e4a",
+    "timestamp": "2026-06-05T16:16:37.235356",
+    "id_conta": 74,
+    "valor": 1337.85,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "MG",
+    "is_fraude": false,
+    "score_fraude": 0.2355,
+    "ip_origem": "117.141.51.206",
+    "device_id": "e6dd8925-1283-40d4-99e0-b8a9074b23a7",
+    "comerciante": "Rodrigues Andrade S.A.",
+    "descricao": "Nihil ullam officiis."
+  }
+}

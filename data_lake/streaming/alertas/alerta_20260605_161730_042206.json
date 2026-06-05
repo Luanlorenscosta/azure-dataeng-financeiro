@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:30.042198",
+  "evento_id": "fa7a653d-1b75-4331-86c5-5b56f194235b",
+  "id_conta": 84,
+  "valor": 459.13,
+  "tipo": "debito",
+  "estado": "RS",
+  "score_fraude": 0.2119,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "fa7a653d-1b75-4331-86c5-5b56f194235b",
+    "timestamp": "2026-06-05T16:17:30.036711",
+    "id_conta": 84,
+    "valor": 459.13,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "RS",
+    "is_fraude": false,
+    "score_fraude": 0.2119,
+    "ip_origem": "193.211.192.231",
+    "device_id": "997343c6-d20a-43c5-96e1-5a2e6c29a797",
+    "comerciante": "Vasconcelos e Filhos",
+    "descricao": "Facilis fugit minus."
+  }
+}

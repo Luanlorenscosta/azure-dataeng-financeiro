@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:16.794424",
+  "evento_id": "431207aa-ee16-4ccb-b3f9-e4a4f63e7e9c",
+  "id_conta": 91,
+  "valor": 2823.91,
+  "tipo": "debito",
+  "estado": "RS",
+  "score_fraude": 0.0243,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "431207aa-ee16-4ccb-b3f9-e4a4f63e7e9c",
+    "timestamp": "2026-06-05T16:18:16.788408",
+    "id_conta": 91,
+    "valor": 2823.91,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "RS",
+    "is_fraude": false,
+    "score_fraude": 0.0243,
+    "ip_origem": "35.208.166.120",
+    "device_id": "8222a3f1-cb24-46c3-b4fc-408c32674295",
+    "comerciante": "Camargo",
+    "descricao": "Consectetur sed."
+  }
+}

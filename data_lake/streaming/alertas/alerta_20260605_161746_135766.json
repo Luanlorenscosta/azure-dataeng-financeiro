@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:46.135756",
+  "evento_id": "6d084745-69b4-41ef-80a7-e22d52d03d1f",
+  "id_conta": 838,
+  "valor": 743.02,
+  "tipo": "debito",
+  "estado": "BA",
+  "score_fraude": 0.2759,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "6d084745-69b4-41ef-80a7-e22d52d03d1f",
+    "timestamp": "2026-06-05T16:17:46.131460",
+    "id_conta": 838,
+    "valor": 743.02,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.2759,
+    "ip_origem": "7.202.69.163",
+    "device_id": "0bf300ab-d7f6-4095-aa4a-cefc6b3556e1",
+    "comerciante": "Dias",
+    "descricao": "Earum eum dolores."
+  }
+}

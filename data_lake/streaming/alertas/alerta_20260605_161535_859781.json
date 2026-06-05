@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:35.859771",
+  "evento_id": "88f270e7-e2f4-454f-bfa1-919fbf6db7a1",
+  "id_conta": 432,
+  "valor": 2711.19,
+  "tipo": "debito",
+  "estado": "BA",
+  "score_fraude": 0.1987,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "88f270e7-e2f4-454f-bfa1-919fbf6db7a1",
+    "timestamp": "2026-06-05T16:15:35.854033",
+    "id_conta": 432,
+    "valor": 2711.19,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.1987,
+    "ip_origem": "45.168.147.118",
+    "device_id": "57e3fba2-57e1-4b89-985b-999fae84f76c",
+    "comerciante": "Freitas Barbosa - ME",
+    "descricao": "Eligendi unde."
+  }
+}

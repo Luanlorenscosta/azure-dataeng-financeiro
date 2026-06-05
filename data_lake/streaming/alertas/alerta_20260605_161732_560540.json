@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:32.560532",
+  "evento_id": "2172346f-6cf6-4c03-9024-40090f489bb8",
+  "id_conta": 936,
+  "valor": 1037.98,
+  "tipo": "boleto",
+  "estado": "RJ",
+  "score_fraude": 0.2821,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "2172346f-6cf6-4c03-9024-40090f489bb8",
+    "timestamp": "2026-06-05T16:17:32.551594",
+    "id_conta": 936,
+    "valor": 1037.98,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "RJ",
+    "is_fraude": false,
+    "score_fraude": 0.2821,
+    "ip_origem": "217.141.27.251",
+    "device_id": "80bb6dfb-d463-4dfe-b494-398be064b3a2",
+    "comerciante": "Duarte",
+    "descricao": "Quos ipsam."
+  }
+}

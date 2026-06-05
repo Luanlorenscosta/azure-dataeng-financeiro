@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:28.324956",
+  "evento_id": "edd29cf1-91b5-429f-b0e4-8f522783b391",
+  "id_conta": 20,
+  "valor": 2231.68,
+  "tipo": "ted",
+  "estado": "SC",
+  "score_fraude": 0.0777,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "edd29cf1-91b5-429f-b0e4-8f522783b391",
+    "timestamp": "2026-06-05T16:15:28.319278",
+    "id_conta": 20,
+    "valor": 2231.68,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "SC",
+    "is_fraude": false,
+    "score_fraude": 0.0777,
+    "ip_origem": "35.58.27.159",
+    "device_id": "8f3b8882-3e57-4f26-a2ea-78071b1e3c22",
+    "comerciante": "Nunes",
+    "descricao": "Quasi maxime."
+  }
+}

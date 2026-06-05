@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:26.819697",
+  "evento_id": "80c6e558-7872-4ef8-a2db-06f2641338c0",
+  "id_conta": 662,
+  "valor": 2692.19,
+  "tipo": "boleto",
+  "estado": "SP",
+  "score_fraude": 0.0831,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "80c6e558-7872-4ef8-a2db-06f2641338c0",
+    "timestamp": "2026-06-05T16:15:26.808938",
+    "id_conta": 662,
+    "valor": 2692.19,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "SP",
+    "is_fraude": false,
+    "score_fraude": 0.0831,
+    "ip_origem": "219.183.219.6",
+    "device_id": "9ec2c78b-0301-4db2-a646-7b8beec44918",
+    "comerciante": "Borges Nunes - ME",
+    "descricao": "Saepe aperiam."
+  }
+}

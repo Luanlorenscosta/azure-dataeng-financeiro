@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:37.587413",
+  "evento_id": "1e2f8dff-825d-4d73-bc3f-2e3e2abd83b0",
+  "id_conta": 767,
+  "valor": 185.19,
+  "tipo": "boleto",
+  "estado": "BA",
+  "score_fraude": 0.2151,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "1e2f8dff-825d-4d73-bc3f-2e3e2abd83b0",
+    "timestamp": "2026-06-05T16:17:37.581403",
+    "id_conta": 767,
+    "valor": 185.19,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.2151,
+    "ip_origem": "34.48.30.102",
+    "device_id": "b13aa71a-49b4-438e-b9a6-260b97688061",
+    "comerciante": "Moura Almeida S.A.",
+    "descricao": "Ea optio maiores."
+  }
+}

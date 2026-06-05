@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:38.097847",
+  "evento_id": "e64d21fb-f6f8-43e1-896b-c7ffd8a151ff",
+  "id_conta": 274,
+  "valor": 2608.89,
+  "tipo": "credito",
+  "estado": "SP",
+  "score_fraude": 0.1329,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "e64d21fb-f6f8-43e1-896b-c7ffd8a151ff",
+    "timestamp": "2026-06-05T16:17:38.087228",
+    "id_conta": 274,
+    "valor": 2608.89,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "SP",
+    "is_fraude": false,
+    "score_fraude": 0.1329,
+    "ip_origem": "139.176.163.73",
+    "device_id": "3f6215f4-bb59-43d6-b16f-7ae95799903c",
+    "comerciante": "da Paz Ltda.",
+    "descricao": "Quaerat nulla blanditiis."
+  }
+}

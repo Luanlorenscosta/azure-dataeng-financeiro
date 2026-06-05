@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:55.346712",
+  "evento_id": "6f02bd09-0c74-44c3-96cf-489846c192fe",
+  "id_conta": 364,
+  "valor": 351.79,
+  "tipo": "pix",
+  "estado": "PE",
+  "score_fraude": 0.1132,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "6f02bd09-0c74-44c3-96cf-489846c192fe",
+    "timestamp": "2026-06-05T16:16:55.338397",
+    "id_conta": 364,
+    "valor": 351.79,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "PE",
+    "is_fraude": false,
+    "score_fraude": 0.1132,
+    "ip_origem": "139.174.71.5",
+    "device_id": "d325223f-1d18-4823-9b49-2d3f997774c2",
+    "comerciante": "da Cunha",
+    "descricao": "Cum voluptatem."
+  }
+}

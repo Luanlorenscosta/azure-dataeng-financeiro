@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:08.413131",
+  "evento_id": "50c68099-e091-4d8c-80ef-81daece0c395",
+  "id_conta": 637,
+  "valor": 1065.93,
+  "tipo": "pix",
+  "estado": "RS",
+  "score_fraude": 0.0609,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "50c68099-e091-4d8c-80ef-81daece0c395",
+    "timestamp": "2026-06-05T16:17:08.403766",
+    "id_conta": 637,
+    "valor": 1065.93,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "RS",
+    "is_fraude": false,
+    "score_fraude": 0.0609,
+    "ip_origem": "51.10.47.9",
+    "device_id": "321d27e9-ba14-49fa-a8b6-e1e77bca199f",
+    "comerciante": "Sá",
+    "descricao": "Ullam ea consequatur."
+  }
+}

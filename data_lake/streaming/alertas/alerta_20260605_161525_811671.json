@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:25.811662",
+  "evento_id": "cb42c17c-09d4-40e4-ae90-3f2aa9b032da",
+  "id_conta": 599,
+  "valor": 1173.68,
+  "tipo": "debito",
+  "estado": "SP",
+  "score_fraude": 0.242,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "cb42c17c-09d4-40e4-ae90-3f2aa9b032da",
+    "timestamp": "2026-06-05T16:15:25.804429",
+    "id_conta": 599,
+    "valor": 1173.68,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "SP",
+    "is_fraude": false,
+    "score_fraude": 0.242,
+    "ip_origem": "206.140.64.190",
+    "device_id": "b07055d6-ef2a-46b8-9e13-6ae097c0b0cf",
+    "comerciante": "Lima",
+    "descricao": "Perferendis rerum eos."
+  }
+}

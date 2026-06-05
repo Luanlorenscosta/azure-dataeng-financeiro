@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:29.541182",
+  "evento_id": "bcfd9a11-115d-4ab1-a864-986054321f34",
+  "id_conta": 726,
+  "valor": 1541.4,
+  "tipo": "credito",
+  "estado": "SC",
+  "score_fraude": 0.0257,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "bcfd9a11-115d-4ab1-a864-986054321f34",
+    "timestamp": "2026-06-05T16:17:29.535699",
+    "id_conta": 726,
+    "valor": 1541.4,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "SC",
+    "is_fraude": false,
+    "score_fraude": 0.0257,
+    "ip_origem": "7.73.135.30",
+    "device_id": "2a567c46-84b3-435d-9afc-cac989075e82",
+    "comerciante": "da Mota",
+    "descricao": "Delectus porro cum."
+  }
+}

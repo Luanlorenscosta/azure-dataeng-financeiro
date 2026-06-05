@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:31.051868",
+  "evento_id": "e77e0bf3-a868-4bf0-971a-24e11e9b884e",
+  "id_conta": 497,
+  "valor": 1470.51,
+  "tipo": "ted",
+  "estado": "MG",
+  "score_fraude": 0.221,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "e77e0bf3-a868-4bf0-971a-24e11e9b884e",
+    "timestamp": "2026-06-05T16:17:31.043448",
+    "id_conta": 497,
+    "valor": 1470.51,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "MG",
+    "is_fraude": false,
+    "score_fraude": 0.221,
+    "ip_origem": "202.8.252.144",
+    "device_id": "f98f289a-b461-435c-bb3e-86d148365a2b",
+    "comerciante": "Abreu",
+    "descricao": "Explicabo."
+  }
+}

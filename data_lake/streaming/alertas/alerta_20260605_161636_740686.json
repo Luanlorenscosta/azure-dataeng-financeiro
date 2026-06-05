@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:36.740664",
+  "evento_id": "193edb2d-cb6e-4da9-abf0-083743535153",
+  "id_conta": 621,
+  "valor": 1109.52,
+  "tipo": "pix",
+  "estado": "SP",
+  "score_fraude": 0.1294,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "193edb2d-cb6e-4da9-abf0-083743535153",
+    "timestamp": "2026-06-05T16:16:36.731973",
+    "id_conta": 621,
+    "valor": 1109.52,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "SP",
+    "is_fraude": false,
+    "score_fraude": 0.1294,
+    "ip_origem": "86.19.222.105",
+    "device_id": "c15554d0-7fc8-425f-bb0f-2a38c01bce8e",
+    "comerciante": "Souza",
+    "descricao": "Dolorem ullam nihil ut."
+  }
+}

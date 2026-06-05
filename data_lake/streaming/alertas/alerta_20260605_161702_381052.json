@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:02.381042",
+  "evento_id": "7e77cbe4-f598-4287-ae7b-487ec6e70c14",
+  "id_conta": 414,
+  "valor": 640.51,
+  "tipo": "ted",
+  "estado": "BA",
+  "score_fraude": 0.0968,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "7e77cbe4-f598-4287-ae7b-487ec6e70c14",
+    "timestamp": "2026-06-05T16:17:02.375831",
+    "id_conta": 414,
+    "valor": 640.51,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.0968,
+    "ip_origem": "207.238.142.199",
+    "device_id": "4e9c3e5a-bfaa-4dcb-9e84-ebd88fd62fe3",
+    "comerciante": "Vasconcelos",
+    "descricao": "Modi voluptates asperiores."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:31.210609",
+  "evento_id": "e4d48041-6aa5-4343-a9f6-6f726109db12",
+  "id_conta": 904,
+  "valor": 793.87,
+  "tipo": "debito",
+  "estado": "PR",
+  "score_fraude": 0.265,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "e4d48041-6aa5-4343-a9f6-6f726109db12",
+    "timestamp": "2026-06-05T16:16:31.203406",
+    "id_conta": 904,
+    "valor": 793.87,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "PR",
+    "is_fraude": false,
+    "score_fraude": 0.265,
+    "ip_origem": "139.52.59.230",
+    "device_id": "35921e31-1789-42e3-9d62-c0e793bd862c",
+    "comerciante": "Vargas",
+    "descricao": "Nesciunt amet at."
+  }
+}

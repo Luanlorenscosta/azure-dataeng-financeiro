@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:14.949191",
+  "evento_id": "4881156a-9119-4394-9164-82c885dc3e9b",
+  "id_conta": 705,
+  "valor": 200.75,
+  "tipo": "credito",
+  "estado": "PR",
+  "score_fraude": 0.0332,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "4881156a-9119-4394-9164-82c885dc3e9b",
+    "timestamp": "2026-06-05T16:17:14.943356",
+    "id_conta": 705,
+    "valor": 200.75,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PR",
+    "is_fraude": false,
+    "score_fraude": 0.0332,
+    "ip_origem": "162.160.134.222",
+    "device_id": "cfe02ce2-bacb-48c7-9bf3-51e00108e556",
+    "comerciante": "Mendonça Ltda.",
+    "descricao": "Quia tempora praesentium."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:48.810990",
+  "evento_id": "15058a2f-4a91-4546-a0a0-df36afcf9ab4",
+  "id_conta": 828,
+  "valor": 2152.7,
+  "tipo": "debito",
+  "estado": "RJ",
+  "score_fraude": 0.1279,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "15058a2f-4a91-4546-a0a0-df36afcf9ab4",
+    "timestamp": "2026-06-05T16:16:48.799831",
+    "id_conta": 828,
+    "valor": 2152.7,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "RJ",
+    "is_fraude": false,
+    "score_fraude": 0.1279,
+    "ip_origem": "18.245.132.91",
+    "device_id": "d8d0b5ec-871d-40cc-a4d5-2a3848aec80a",
+    "comerciante": "Machado",
+    "descricao": "At nulla."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:26.177391",
+  "evento_id": "5da51f47-76b0-44b5-8973-36f82fe94d23",
+  "id_conta": 496,
+  "valor": 15822.24,
+  "tipo": "pix",
+  "estado": "BA",
+  "score_fraude": 0.9449,
+  "alertas": [
+    {
+      "regra": "SCORE_FRAUDE_ALTO",
+      "descricao": "Score 0.9449 acima do limite 0.65",
+      "severidade": "ALTA"
+    },
+    {
+      "regra": "VALOR_SUSPEITO",
+      "descricao": "Transação de R$ 15,822.24 acima do limite",
+      "severidade": "MEDIA"
+    },
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "5da51f47-76b0-44b5-8973-36f82fe94d23",
+    "timestamp": "2026-06-05T16:16:26.172203",
+    "id_conta": 496,
+    "valor": 15822.24,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "BA",
+    "is_fraude": true,
+    "score_fraude": 0.9449,
+    "ip_origem": "163.128.5.78",
+    "device_id": "791c5477-6548-4d35-87b6-b977593cd4aa",
+    "comerciante": "da Conceição Mendes S/A",
+    "descricao": "Illum enim."
+  }
+}

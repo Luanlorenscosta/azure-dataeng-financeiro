@@ -1,0 +1,42 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:31.340498",
+  "evento_id": "9c7dc5d7-edc8-4266-b55b-cf50df20bcb8",
+  "id_conta": 140,
+  "valor": 7401.51,
+  "tipo": "ted",
+  "estado": "BA",
+  "score_fraude": 0.7448,
+  "alertas": [
+    {
+      "regra": "SCORE_FRAUDE_ALTO",
+      "descricao": "Score 0.7448 acima do limite 0.65",
+      "severidade": "ALTA"
+    },
+    {
+      "regra": "VALOR_SUSPEITO",
+      "descricao": "Transação de R$ 7,401.51 acima do limite",
+      "severidade": "MEDIA"
+    },
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "9c7dc5d7-edc8-4266-b55b-cf50df20bcb8",
+    "timestamp": "2026-06-05T16:15:31.331423",
+    "id_conta": 140,
+    "valor": 7401.51,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "BA",
+    "is_fraude": true,
+    "score_fraude": 0.7448,
+    "ip_origem": "67.107.125.52",
+    "device_id": "8ab39010-29bb-4689-a304-ff739127fea8",
+    "comerciante": "Abreu S/A",
+    "descricao": "Atque esse laudantium."
+  }
+}

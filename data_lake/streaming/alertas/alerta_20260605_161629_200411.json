@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:29.200394",
+  "evento_id": "9b3e5ee1-c16c-4862-a5e3-b1238e668c54",
+  "id_conta": 157,
+  "valor": 1433.96,
+  "tipo": "ted",
+  "estado": "MG",
+  "score_fraude": 0.2184,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "9b3e5ee1-c16c-4862-a5e3-b1238e668c54",
+    "timestamp": "2026-06-05T16:16:29.191256",
+    "id_conta": 157,
+    "valor": 1433.96,
+    "tipo": "ted",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "MG",
+    "is_fraude": false,
+    "score_fraude": 0.2184,
+    "ip_origem": "183.56.91.158",
+    "device_id": "6bc15158-520b-4dd2-bcbb-0b3ad3c054ed",
+    "comerciante": "Vieira da Costa Ltda.",
+    "descricao": "Possimus dolorem minus."
+  }
+}

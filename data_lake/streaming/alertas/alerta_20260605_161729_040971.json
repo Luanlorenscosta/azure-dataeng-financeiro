@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:29.040955",
+  "evento_id": "d07a75b5-b91f-4603-bb3c-b105a197dae5",
+  "id_conta": 236,
+  "valor": 40.24,
+  "tipo": "boleto",
+  "estado": "PR",
+  "score_fraude": 0.0688,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "d07a75b5-b91f-4603-bb3c-b105a197dae5",
+    "timestamp": "2026-06-05T16:17:29.032802",
+    "id_conta": 236,
+    "valor": 40.24,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PR",
+    "is_fraude": false,
+    "score_fraude": 0.0688,
+    "ip_origem": "141.78.117.126",
+    "device_id": "c6ccc4f6-633f-4d03-bba9-69dcd1e1c385",
+    "comerciante": "Camargo S.A.",
+    "descricao": "Repellendus tempora."
+  }
+}

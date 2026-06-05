@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:12.087842",
+  "evento_id": "7f0c221e-42b9-47de-aebb-7cccc7485f8b",
+  "id_conta": 203,
+  "valor": 287.32,
+  "tipo": "pix",
+  "estado": "RS",
+  "score_fraude": 0.1116,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "7f0c221e-42b9-47de-aebb-7cccc7485f8b",
+    "timestamp": "2026-06-05T16:16:12.083408",
+    "id_conta": 203,
+    "valor": 287.32,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "RS",
+    "is_fraude": false,
+    "score_fraude": 0.1116,
+    "ip_origem": "142.2.222.225",
+    "device_id": "4a5b585a-3106-43ac-a73c-7e38333637dc",
+    "comerciante": "das Neves",
+    "descricao": "Dolorum numquam ut."
+  }
+}

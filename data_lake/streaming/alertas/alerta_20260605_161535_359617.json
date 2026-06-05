@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:35.359607",
+  "evento_id": "5ab8f159-d6b1-4ec5-aaf9-ef5beda70e08",
+  "id_conta": 735,
+  "valor": 1911.13,
+  "tipo": "credito",
+  "estado": "BA",
+  "score_fraude": 0.2342,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "5ab8f159-d6b1-4ec5-aaf9-ef5beda70e08",
+    "timestamp": "2026-06-05T16:15:35.352706",
+    "id_conta": 735,
+    "valor": 1911.13,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.2342,
+    "ip_origem": "208.155.104.26",
+    "device_id": "9d970237-2a87-49ed-a346-676d8cce1669",
+    "comerciante": "Aparecida",
+    "descricao": "Porro labore sunt."
+  }
+}

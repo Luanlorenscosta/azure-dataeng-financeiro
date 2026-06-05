@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:59.506264",
+  "evento_id": "dd319829-d1e0-4ea9-921c-81f9f4ded8c0",
+  "id_conta": 16,
+  "valor": 673.81,
+  "tipo": "boleto",
+  "estado": "PR",
+  "score_fraude": 0.0917,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "dd319829-d1e0-4ea9-921c-81f9f4ded8c0",
+    "timestamp": "2026-06-05T16:15:59.491550",
+    "id_conta": 16,
+    "valor": 673.81,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "PR",
+    "is_fraude": false,
+    "score_fraude": 0.0917,
+    "ip_origem": "208.129.210.229",
+    "device_id": "d2b3e5db-e7d6-469a-aa24-b3418bad2cab",
+    "comerciante": "da Mota Castro S/A",
+    "descricao": "Excepturi facere animi."
+  }
+}

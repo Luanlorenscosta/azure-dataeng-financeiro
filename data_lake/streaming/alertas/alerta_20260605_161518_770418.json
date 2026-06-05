@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:18.770391",
+  "evento_id": "81e1b83f-c23a-43c4-86b6-b97ccd94a7c1",
+  "id_conta": 843,
+  "valor": 440.83,
+  "tipo": "boleto",
+  "estado": "PE",
+  "score_fraude": 0.0602,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "81e1b83f-c23a-43c4-86b6-b97ccd94a7c1",
+    "timestamp": "2026-06-05T16:15:18.763254",
+    "id_conta": 843,
+    "valor": 440.83,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "PE",
+    "is_fraude": false,
+    "score_fraude": 0.0602,
+    "ip_origem": "165.183.113.189",
+    "device_id": "440b08f6-9028-41b2-acc9-f630f9e7a19c",
+    "comerciante": "Ribeiro",
+    "descricao": "Corporis natus deserunt."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:25.843017",
+  "evento_id": "821c890f-96a8-4bb3-8881-ca061bfc0984",
+  "id_conta": 488,
+  "valor": 2229.11,
+  "tipo": "credito",
+  "estado": "RS",
+  "score_fraude": 0.0587,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "821c890f-96a8-4bb3-8881-ca061bfc0984",
+    "timestamp": "2026-06-05T16:18:25.834472",
+    "id_conta": 488,
+    "valor": 2229.11,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "RS",
+    "is_fraude": false,
+    "score_fraude": 0.0587,
+    "ip_origem": "115.49.192.202",
+    "device_id": "84e03f07-8db5-4023-82d7-727f9349a804",
+    "comerciante": "da Rocha S.A.",
+    "descricao": "Saepe inventore reiciendis et."
+  }
+}

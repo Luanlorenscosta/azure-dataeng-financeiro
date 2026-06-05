@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:08.069468",
+  "evento_id": "cbff57be-d097-49f4-8348-e9f8082b54c3",
+  "id_conta": 729,
+  "valor": 1119.2,
+  "tipo": "debito",
+  "estado": "BA",
+  "score_fraude": 0.1228,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "cbff57be-d097-49f4-8348-e9f8082b54c3",
+    "timestamp": "2026-06-05T16:16:08.057815",
+    "id_conta": 729,
+    "valor": 1119.2,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.1228,
+    "ip_origem": "40.117.146.26",
+    "device_id": "77adff18-0b2a-473c-abf9-86cdfa0265d2",
+    "comerciante": "Cavalcanti",
+    "descricao": "Minima blanditiis."
+  }
+}

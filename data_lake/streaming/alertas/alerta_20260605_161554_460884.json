@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:54.460874",
+  "evento_id": "1b1722b4-84c9-4e34-b3a3-e3c53ce24b33",
+  "id_conta": 36,
+  "valor": 2861.11,
+  "tipo": "boleto",
+  "estado": "PE",
+  "score_fraude": 0.1694,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "1b1722b4-84c9-4e34-b3a3-e3c53ce24b33",
+    "timestamp": "2026-06-05T16:15:54.455031",
+    "id_conta": 36,
+    "valor": 2861.11,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "web",
+    "estado_origem": "PE",
+    "is_fraude": false,
+    "score_fraude": 0.1694,
+    "ip_origem": "148.17.65.12",
+    "device_id": "7fe18b7d-cb7f-46ab-8d00-a5d7f5070304",
+    "comerciante": "Costa",
+    "descricao": "Illo quo dolore."
+  }
+}

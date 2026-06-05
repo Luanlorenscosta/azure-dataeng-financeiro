@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:44.630332",
+  "evento_id": "e52a282c-ad39-49b0-9451-e26a996bd30a",
+  "id_conta": 58,
+  "valor": 2872.36,
+  "tipo": "credito",
+  "estado": "GO",
+  "score_fraude": 0.2641,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "e52a282c-ad39-49b0-9451-e26a996bd30a",
+    "timestamp": "2026-06-05T16:17:44.621258",
+    "id_conta": 58,
+    "valor": 2872.36,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "GO",
+    "is_fraude": false,
+    "score_fraude": 0.2641,
+    "ip_origem": "223.135.154.12",
+    "device_id": "191aba2f-c3e8-4486-9610-beb141d2f265",
+    "comerciante": "Martins",
+    "descricao": "Velit."
+  }
+}

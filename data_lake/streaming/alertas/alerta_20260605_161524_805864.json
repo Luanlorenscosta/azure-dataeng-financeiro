@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:24.805850",
+  "evento_id": "6af11d69-3261-4628-841f-167463c12060",
+  "id_conta": 807,
+  "valor": 429.86,
+  "tipo": "pix",
+  "estado": "RJ",
+  "score_fraude": 0.1494,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "6af11d69-3261-4628-841f-167463c12060",
+    "timestamp": "2026-06-05T16:15:24.799215",
+    "id_conta": 807,
+    "valor": 429.86,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "RJ",
+    "is_fraude": false,
+    "score_fraude": 0.1494,
+    "ip_origem": "58.99.255.226",
+    "device_id": "bad4cad7-7601-44fd-953e-e7f7417db373",
+    "comerciante": "Carvalho",
+    "descricao": "Fuga quo."
+  }
+}

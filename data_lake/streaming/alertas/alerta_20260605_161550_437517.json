@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:50.437496",
+  "evento_id": "bba3ac66-0466-4cc0-aa6a-0ea83b251f34",
+  "id_conta": 249,
+  "valor": 62.69,
+  "tipo": "pix",
+  "estado": "MG",
+  "score_fraude": 0.1287,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "bba3ac66-0466-4cc0-aa6a-0ea83b251f34",
+    "timestamp": "2026-06-05T16:15:50.426796",
+    "id_conta": 249,
+    "valor": 62.69,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "MG",
+    "is_fraude": false,
+    "score_fraude": 0.1287,
+    "ip_origem": "155.106.222.89",
+    "device_id": "5ef2f416-afba-47af-a573-39a50273a9b8",
+    "comerciante": "Nunes Rodrigues S.A.",
+    "descricao": "Saepe optio libero."
+  }
+}

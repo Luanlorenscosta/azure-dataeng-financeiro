@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:39.875228",
+  "evento_id": "216ef136-11b5-4cdf-9e89-fd11c44526ae",
+  "id_conta": 835,
+  "valor": 139.61,
+  "tipo": "debito",
+  "estado": "RS",
+  "score_fraude": 0.1907,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "216ef136-11b5-4cdf-9e89-fd11c44526ae",
+    "timestamp": "2026-06-05T16:15:39.870268",
+    "id_conta": 835,
+    "valor": 139.61,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "RS",
+    "is_fraude": false,
+    "score_fraude": 0.1907,
+    "ip_origem": "193.252.12.169",
+    "device_id": "13468fde-c30c-412e-8c0a-1eb542c9a3ba",
+    "comerciante": "Oliveira",
+    "descricao": "Eum nemo modi."
+  }
+}

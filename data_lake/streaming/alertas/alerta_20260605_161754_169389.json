@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:54.169379",
+  "evento_id": "c5c1ff1e-29be-48dd-bd9d-35d7e7c9261f",
+  "id_conta": 854,
+  "valor": 145.14,
+  "tipo": "boleto",
+  "estado": "GO",
+  "score_fraude": 0.275,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "c5c1ff1e-29be-48dd-bd9d-35d7e7c9261f",
+    "timestamp": "2026-06-05T16:17:54.165013",
+    "id_conta": 854,
+    "valor": 145.14,
+    "tipo": "boleto",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "GO",
+    "is_fraude": false,
+    "score_fraude": 0.275,
+    "ip_origem": "88.204.106.249",
+    "device_id": "63de77de-1d1e-4f19-a380-37962b7dbbdc",
+    "comerciante": "Borges da Cruz e Filhos",
+    "descricao": "Voluptatibus."
+  }
+}

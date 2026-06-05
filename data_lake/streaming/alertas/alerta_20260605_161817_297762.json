@@ -1,0 +1,42 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:17.297739",
+  "evento_id": "fdbd2186-dab9-454f-87a3-f3e4db523865",
+  "id_conta": 353,
+  "valor": 14659.54,
+  "tipo": "debito",
+  "estado": "RJ",
+  "score_fraude": 0.8528,
+  "alertas": [
+    {
+      "regra": "SCORE_FRAUDE_ALTO",
+      "descricao": "Score 0.8528 acima do limite 0.65",
+      "severidade": "ALTA"
+    },
+    {
+      "regra": "VALOR_SUSPEITO",
+      "descricao": "Transação de R$ 14,659.54 acima do limite",
+      "severidade": "MEDIA"
+    },
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "fdbd2186-dab9-454f-87a3-f3e4db523865",
+    "timestamp": "2026-06-05T16:18:17.290202",
+    "id_conta": 353,
+    "valor": 14659.54,
+    "tipo": "debito",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "RJ",
+    "is_fraude": true,
+    "score_fraude": 0.8528,
+    "ip_origem": "210.20.69.195",
+    "device_id": "3dd01bdb-ce2f-4fbd-a09e-1440c8441131",
+    "comerciante": "Correia",
+    "descricao": "Aperiam fugit minima."
+  }
+}

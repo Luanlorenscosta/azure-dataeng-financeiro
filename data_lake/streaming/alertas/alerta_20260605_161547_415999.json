@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:15:47.415983",
+  "evento_id": "2f057b37-1b59-46a4-b558-5b0de09ed78e",
+  "id_conta": 652,
+  "valor": 2451.75,
+  "tipo": "pix",
+  "estado": "PR",
+  "score_fraude": 0.0749,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "2f057b37-1b59-46a4-b558-5b0de09ed78e",
+    "timestamp": "2026-06-05T16:15:47.408087",
+    "id_conta": 652,
+    "valor": 2451.75,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "app",
+    "estado_origem": "PR",
+    "is_fraude": false,
+    "score_fraude": 0.0749,
+    "ip_origem": "46.186.216.144",
+    "device_id": "a18c8e3b-2b3f-4386-b36a-df9034659a2b",
+    "comerciante": "Cavalcanti Garcia Ltda.",
+    "descricao": "Tenetur commodi."
+  }
+}

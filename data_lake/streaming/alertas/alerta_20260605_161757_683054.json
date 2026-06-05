@@ -1,0 +1,42 @@
+{
+  "timestamp_alerta": "2026-06-05T16:17:57.683045",
+  "evento_id": "e6d0ce3f-d011-42d2-8883-cfcac4f213e5",
+  "id_conta": 962,
+  "valor": 16876.0,
+  "tipo": "pix",
+  "estado": "PE",
+  "score_fraude": 0.7351,
+  "alertas": [
+    {
+      "regra": "SCORE_FRAUDE_ALTO",
+      "descricao": "Score 0.7351 acima do limite 0.65",
+      "severidade": "ALTA"
+    },
+    {
+      "regra": "VALOR_SUSPEITO",
+      "descricao": "Transação de R$ 16,876.00 acima do limite",
+      "severidade": "MEDIA"
+    },
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "e6d0ce3f-d011-42d2-8883-cfcac4f213e5",
+    "timestamp": "2026-06-05T16:17:57.679193",
+    "id_conta": 962,
+    "valor": 16876.0,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "PE",
+    "is_fraude": true,
+    "score_fraude": 0.7351,
+    "ip_origem": "24.105.175.1",
+    "device_id": "81705677-e842-47f4-9234-3c3fdb1ca560",
+    "comerciante": "Castro Teixeira e Filhos",
+    "descricao": "Velit id blanditiis."
+  }
+}

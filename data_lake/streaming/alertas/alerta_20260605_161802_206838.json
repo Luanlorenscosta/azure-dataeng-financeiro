@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:18:02.206830",
+  "evento_id": "d5974466-7265-4a69-8d06-abc7a0a73501",
+  "id_conta": 185,
+  "valor": 2195.06,
+  "tipo": "credito",
+  "estado": "BA",
+  "score_fraude": 0.1029,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "d5974466-7265-4a69-8d06-abc7a0a73501",
+    "timestamp": "2026-06-05T16:18:02.203166",
+    "id_conta": 185,
+    "valor": 2195.06,
+    "tipo": "credito",
+    "status": "suspeita",
+    "canal": "pos",
+    "estado_origem": "BA",
+    "is_fraude": false,
+    "score_fraude": 0.1029,
+    "ip_origem": "10.171.26.131",
+    "device_id": "d38defb6-e36d-414c-a084-6a3e43355123",
+    "comerciante": "Rios Leão - ME",
+    "descricao": "Quod necessitatibus."
+  }
+}

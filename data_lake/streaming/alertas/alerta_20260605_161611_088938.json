@@ -1,0 +1,32 @@
+{
+  "timestamp_alerta": "2026-06-05T16:16:11.088914",
+  "evento_id": "b4b53200-423d-4c66-98e7-f0e62ed70cbb",
+  "id_conta": 445,
+  "valor": 166.33,
+  "tipo": "pix",
+  "estado": "CE",
+  "score_fraude": 0.1573,
+  "alertas": [
+    {
+      "regra": "STATUS_SUSPEITA",
+      "descricao": "Transação marcada como suspeita pelo sistema de origem",
+      "severidade": "ALTA"
+    }
+  ],
+  "transacao": {
+    "evento_id": "b4b53200-423d-4c66-98e7-f0e62ed70cbb",
+    "timestamp": "2026-06-05T16:16:11.077112",
+    "id_conta": 445,
+    "valor": 166.33,
+    "tipo": "pix",
+    "status": "suspeita",
+    "canal": "atm",
+    "estado_origem": "CE",
+    "is_fraude": false,
+    "score_fraude": 0.1573,
+    "ip_origem": "129.160.106.162",
+    "device_id": "74613499-c03e-4c4e-8b11-584c1d99919b",
+    "comerciante": "Garcia e Filhos",
+    "descricao": "Inventore corrupti natus."
+  }
+}
