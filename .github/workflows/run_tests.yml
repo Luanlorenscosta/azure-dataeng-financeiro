@@ -1,0 +1,113 @@
+# ================================================================
+# .github/workflows/run_tests.yml
+# CI/CD — Roda testes automatizados a cada push
+# Equivalente ao: Azure DevOps Pipelines
+# Dispara quando: qualquer push na branch main ou pull request
+# ================================================================
+
+name: CI — Testes e Qualidade de Dados
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  # ----------------------------------------------------------------
+  # Job 1: Testes unitários dos pipelines
+  # ----------------------------------------------------------------
+  testes-pipelines:
+    name: Testes dos Pipelines
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependências
+        run: |
+          pip install --upgrade pip
+          pip install pandas pyarrow duckdb faker loguru pytest pytest-cov sqlalchemy psycopg2-binary requests python-dotenv
+
+      - name: Rodar testes unitários
+        run: |
+          pytest tests/ -v --tb=short --cov=pipelines --cov-report=term-missing
+
+      - name: Verificar cobertura mínima de 70%
+        run: |
+          pytest tests/ --cov=pipelines --cov-fail-under=70
+
+  # ----------------------------------------------------------------
+  # Job 2: Validação da qualidade do código
+  # ----------------------------------------------------------------
+  qualidade-codigo:
+    name: Qualidade do Código
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar ferramentas de qualidade
+        run: |
+          pip install flake8 black isort
+
+      - name: Verificar formatação com Black
+        run: |
+          black --check --diff pipelines/ streaming/ sql/
+
+      - name: Verificar imports com isort
+        run: |
+          isort --check-only pipelines/ streaming/
+
+      - name: Verificar estilo com Flake8
+        run: |
+          flake8 pipelines/ streaming/ --max-line-length=100 --ignore=E501,W503
+
+  # ----------------------------------------------------------------
+  # Job 3: Validação da estrutura do Data Lake
+  # ----------------------------------------------------------------
+  validar-datalake:
+    name: Validar Estrutura do Data Lake
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Verificar arquivos essenciais do projeto
+        run: |
+          echo "Verificando estrutura do projeto..."
+          
+          # Verifica se os pipelines existem
+          test -f pipelines/adf/01_ingest_bronze.py      && echo "✅ Bronze pipeline OK"
+          test -f pipelines/databricks/01_bronze_to_silver.py && echo "✅ Silver pipeline OK"
+          test -f pipelines/databricks/02_silver_to_gold.py   && echo "✅ Gold pipeline OK"
+          test -f streaming/event_hub_producer.py         && echo "✅ Kafka producer OK"
+          test -f streaming/event_hub_consumer.py         && echo "✅ Kafka consumer OK"
+          test -f docker-compose.yml                      && echo "✅ Docker compose OK"
+          test -f sql/ddl/01_create_tables.sql            && echo "✅ DDL SQL OK"
+          
+          echo "Estrutura validada com sucesso!"
+
+      - name: Verificar sintaxe Python dos pipelines
+        run: |
+          python -m py_compile pipelines/adf/01_ingest_bronze.py
+          python -m py_compile pipelines/databricks/01_bronze_to_silver.py
+          python -m py_compile pipelines/databricks/02_silver_to_gold.py
+          python -m py_compile streaming/event_hub_producer.py
+          python -m py_compile streaming/event_hub_consumer.py
+          echo "✅ Sintaxe Python validada!"
