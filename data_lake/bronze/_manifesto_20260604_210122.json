@@ -1,0 +1,54 @@
+{
+  "pipeline": "ingest_bronze",
+  "versao": "1.0.0",
+  "data_execucao": "2026-06-04T21:01:22.776285",
+  "particao": "ano=2026/mes=06/dia=04",
+  "fonte": "postgresql://financeiro_source",
+  "destino": "data_lake\\bronze",
+  "tabelas": [
+    {
+      "tabela": "clientes",
+      "linhas": 500,
+      "colunas": 14,
+      "tamanho_mb": 0.04,
+      "arquivo": "data_lake\\bronze\\clientes\\ano=2026\\mes=06\\dia=04\\clientes.parquet",
+      "status": "sucesso"
+    },
+    {
+      "tabela": "contas",
+      "linhas": 1017,
+      "colunas": 11,
+      "tamanho_mb": 0.04,
+      "arquivo": "data_lake\\bronze\\contas\\ano=2026\\mes=06\\dia=04\\contas.parquet",
+      "status": "sucesso"
+    },
+    {
+      "tabela": "comerciantes",
+      "linhas": 100,
+      "colunas": 9,
+      "tamanho_mb": 0.01,
+      "arquivo": "data_lake\\bronze\\comerciantes\\ano=2026\\mes=06\\dia=04\\comerciantes.parquet",
+      "status": "sucesso"
+    },
+    {
+      "tabela": "categorias_transacao",
+      "linhas": 14,
+      "colunas": 6,
+      "tamanho_mb": 0.0,
+      "arquivo": "data_lake\\bronze\\categorias_transacao\\ano=2026\\mes=06\\dia=04\\categorias_transacao.parquet",
+      "status": "sucesso"
+    },
+    {
+      "tabela": "transacoes",
+      "linhas": 50000,
+      "colunas": 18,
+      "tamanho_mb": 4.78,
+      "arquivo": "data_lake\\bronze\\transacoes\\ano=2026\\mes=06\\dia=04\\transacoes.parquet",
+      "status": "sucesso"
+    }
+  ],
+  "total_tabelas": 5,
+  "total_sucesso": 5,
+  "total_erro": 0,
+  "total_linhas": 51631
+}
